@@ -1,0 +1,74 @@
+{
+  "name": "GSU protocol",
+  "timestamp": "2022-10-11T08:46:52+00:00",
+  "version": {
+    "major": 0,
+    "minor": 1,
+    "patch": 0
+  },
+  "logoURI": "https://github.com/block360/daistats/blob/updates-daistats/public/dai.png?raw=true",
+  "keywords": [
+    "GSU protocol",
+    "DAO",
+    "GSUc",
+    "GSUp",
+    "Stablecoin",
+    "Collateral",
+    "DeFi"
+  ],
+  "tags": {
+    "stablecoin": {
+      "name": "Stablecoin",
+      "description": "Tokens that are fixed to an external asset, e.g. the US dollar"
+    }
+  },
+  "tokens": [
+    {
+      "chainId": 1,
+      "address": "0x0000000000000000000000000000000000000000",
+      "symbol": "GSUc",
+      "name": "GSUc Stablecoin",
+      "decimals": 18,
+
+      "tags": ["stablecoin"]
+    },
+    {
+      "chainId": 5,
+      "address": "0x3d28002C3A50Ed29a41DcE3aE82301C2425a0DF9",
+      "symbol": "GSUc",
+      "name": "GSUc Stablecoin",
+      "decimals": 18,
+      "tags": ["stablecoin"]
+    },
+    {
+      "chainId": 1,
+      "address": "0x0000000000000000000000000000000000000000",
+      "symbol": "GSUp",
+      "name": "GSUp",
+      "decimals": 18
+    },
+    {
+      "chainId": 5,
+      "address": "0xc4Ea8cE98436B58cc51F7D2d501e27dbbA0066f2",
+      "symbol": "GSUp",
+      "name": "GSUp",
+      "decimals": 18
+    },
+    {
+      "chainId": 1,
+      "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+      "symbol": "WETH",
+      "name": "Wrapped Ether",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+      "symbol": "WBTC",
+      "name": "Wrapped BTC",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599/logo.png"
+    }
+  ]
+}
